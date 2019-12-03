@@ -13,22 +13,23 @@ class App extends Component {
   render() {
 
     const backgroundHexagons = []
-    for (let i = 0; i< 40; i++) {
+    for (let i = 0; i< 30; i++) {
       backgroundHexagons.push(
-        <div 
+        <img
+          src={require(`./assets/hexagon${Math.floor(Math.random()*7)}.svg`)}
           className="backgroundHexagon" 
           style={{
             position: "absolute",
             top: `${Math.random()*100}%`,
             left: `${Math.random()*100}%`,
-            backgroundColor: "white",
-            width: "10px",
-            height: "10px",
+            width: "3vh",
+            height: "auto",
+            color: "white",
             transform: "translateX(-50%)",
             zIndex: -1,
-          }}>
-
-        </div>)
+          }} 
+        />
+      )
     }
 
     return (

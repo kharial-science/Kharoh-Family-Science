@@ -11,10 +11,31 @@ class App extends Component {
   }
 
   render() {
+
+    const backgroundHexagons = []
+    for (let i = 0; i< 40; i++) {
+      backgroundHexagons.push(
+        <div 
+          className="backgroundHexagon" 
+          style={{
+            position: "absolute",
+            top: `${Math.random()*100}%`,
+            left: `${Math.random()*100}%`,
+            backgroundColor: "white",
+            width: "10px",
+            height: "10px",
+            transform: "translateX(-50%)",
+            zIndex: -1,
+          }}>
+
+        </div>)
+    }
+
     return (
       <div id="App">
         <Header />
         <Projects />
+        {backgroundHexagons}
       </div>
     )
   }

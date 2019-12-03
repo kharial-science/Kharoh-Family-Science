@@ -6,8 +6,9 @@
     // background-color: white;
 
     display: grid;
-    grid-template-columns: repeat(5, 11vw);
-    grid-column-gap: 2.25vw;
+    grid-template-columns: repeat(3, 20vw);
+    grid-column-gap: 2vw;
+    grid-row-gap: 2.5vw;
     grid-auto-rows: auto;
 
     a {
@@ -16,7 +17,7 @@
 
     .Project {
 
-        width: 11vw;
+        width: 20vw;
         height: 11vw;
         
         background-color: white;

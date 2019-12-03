@@ -15,6 +15,8 @@ class Projects extends Component {
                 <Project title="Map Generator" href="https://kharohfamily-science.github.io/Map-Generator/" />
                 <Project />
                 <Project />
+                <Project />
+                <Project />
             </div>
         )
     }

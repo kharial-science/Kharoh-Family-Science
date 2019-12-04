@@ -13,8 +13,8 @@ class Projects extends Component {
         return (
             <div id="Projects">
                 <Project title="Map Generator" href="https://kharohfamily-science.github.io/Map-Generator/" />
-                <Project />
-                <Project />
+                <Project title="Binary Number Image" href="https://github.com/kharohfamily-science/Binary-Number-Image" />
+                <Project title="Base Image Convertor" href="https://github.com/kharohfamily-science/Base-Image-Convertor" />
                 <Project />
                 <Project />
             </div>

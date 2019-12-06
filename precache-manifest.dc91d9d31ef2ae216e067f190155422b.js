@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ff76b47d0a11cf9f8ebee489e5b7ae2",
+    "revision": "34b3374b96dcac43363cd236aa695fb1",
     "url": "/Kharoh-Family-Science/index.html"
   },
   {
-    "revision": "6df95714efdaee389919",
+    "revision": "2cc6110fb767832bac30",
     "url": "/Kharoh-Family-Science/static/css/main.813e45e8.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Kharoh-Family-Science/static/js/2.635359a0.chunk.js"
   },
   {
-    "revision": "6df95714efdaee389919",
-    "url": "/Kharoh-Family-Science/static/js/main.91ceccd8.chunk.js"
+    "revision": "2cc6110fb767832bac30",
+    "url": "/Kharoh-Family-Science/static/js/main.b0143c1b.chunk.js"
   },
   {
     "revision": "17c1d158ff311ed94663",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a19b3aa612c4b07dfdc2c5ddbed9afeb",
     "url": "/Kharoh-Family-Science/static/media/Map-Generator.a19b3aa6.png"
+  },
+  {
+    "revision": "793bce362cd613dce13baff7bbcb5bf8",
+    "url": "/Kharoh-Family-Science/static/media/Times-Tables.793bce36.png"
   },
   {
     "revision": "a3379bff9f08522103f4a5b5cc8dc215",

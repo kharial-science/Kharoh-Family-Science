@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/Kharoh-Family-Science/static/css/main.813e45e8.chunk.css",
-    "main.js": "/Kharoh-Family-Science/static/js/main.91ceccd8.chunk.js",
-    "main.js.map": "/Kharoh-Family-Science/static/js/main.91ceccd8.chunk.js.map",
+    "main.js": "/Kharoh-Family-Science/static/js/main.b0143c1b.chunk.js",
+    "main.js.map": "/Kharoh-Family-Science/static/js/main.b0143c1b.chunk.js.map",
     "runtime-main.js": "/Kharoh-Family-Science/static/js/runtime-main.0ae33310.js",
     "runtime-main.js.map": "/Kharoh-Family-Science/static/js/runtime-main.0ae33310.js.map",
     "static/js/2.635359a0.chunk.js": "/Kharoh-Family-Science/static/js/2.635359a0.chunk.js",
     "static/js/2.635359a0.chunk.js.map": "/Kharoh-Family-Science/static/js/2.635359a0.chunk.js.map",
     "index.html": "/Kharoh-Family-Science/index.html",
-    "precache-manifest.c22f851f381f566cd5b2c0270311da17.js": "/Kharoh-Family-Science/precache-manifest.c22f851f381f566cd5b2c0270311da17.js",
+    "precache-manifest.dc91d9d31ef2ae216e067f190155422b.js": "/Kharoh-Family-Science/precache-manifest.dc91d9d31ef2ae216e067f190155422b.js",
     "service-worker.js": "/Kharoh-Family-Science/service-worker.js",
     "static/css/main.813e45e8.chunk.css.map": "/Kharoh-Family-Science/static/css/main.813e45e8.chunk.css.map",
     "static/media/Binary-Number-Image.png": "/Kharoh-Family-Science/static/media/Binary-Number-Image.6c9d422e.png",
     "static/media/Map-Generator.png": "/Kharoh-Family-Science/static/media/Map-Generator.a19b3aa6.png",
+    "static/media/Times-Tables.png": "/Kharoh-Family-Science/static/media/Times-Tables.793bce36.png",
     "static/media/hexagon0.svg": "/Kharoh-Family-Science/static/media/hexagon0.a3379bff.svg",
     "static/media/hexagon1.svg": "/Kharoh-Family-Science/static/media/hexagon1.7bc09d69.svg",
     "static/media/hexagon2.svg": "/Kharoh-Family-Science/static/media/hexagon2.c1d9a4de.svg",
@@ -25,6 +26,6 @@
     "static/js/runtime-main.0ae33310.js",
     "static/js/2.635359a0.chunk.js",
     "static/css/main.813e45e8.chunk.css",
-    "static/js/main.91ceccd8.chunk.js"
+    "static/js/main.b0143c1b.chunk.js"
   ]
 }

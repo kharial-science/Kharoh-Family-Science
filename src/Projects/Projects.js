@@ -21,11 +21,11 @@ class Projects extends Component {
         href: 'https://kharohfamily-science.github.io/Binary-Number-Image/',
         image: 'Binary-Number-Image.png'
       },
-      // {
-      //     title: "Base Image Convertor",
-      //     href: "https://github.com/kharohfamily-science/Base-Image-Convertor"
-      // },
-      {},
+      {
+          title: "Times Tables",
+          href: "https://github.com/kharohfamily-science/Times-Tables",
+          image: 'Times-Tables.png'
+      },
       {},
       {},
       {}

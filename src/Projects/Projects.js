@@ -14,11 +14,13 @@ class Projects extends Component {
         const projects = [
             {
                 title: "Map Generator",
-                href: "https://kharohfamily-science.github.io/Map-Generator/"
+                href: "https://kharohfamily-science.github.io/Map-Generator/",
+                image: "Map-Generator.png"
             },
             {
                 title: "Binary Number Image",
-                href: "https://github.com/kharohfamily-science/Binary-Number-Image"
+                href: "https://github.com/kharohfamily-science/Binary-Number-Image",
+                image: "Binary-Number-Image.png"
             },
             {
                 title: "Base Image Convertor",

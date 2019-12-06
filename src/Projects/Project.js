@@ -10,6 +10,7 @@ class Project extends Component {
             <a href={this.props.href} style={this.props.style} >
                 <div className="Project">
                     <h2>{this.props.title}</h2>
+                    {this.props.image ? <img src={require(`./../assets/projectsImages/${this.props.image}`)} alt="Map Generator project image"></img> : null}
                 </div>
             </a>
         )

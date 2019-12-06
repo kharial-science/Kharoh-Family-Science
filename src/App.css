@@ -22,7 +22,49 @@ body {
           align-items: center;
 }
 
-#App .backgroundHexagon {
-  overflow: hidden;
+@-webkit-keyframes hexagonsAreGons {
+  0% {
+    -webkit-transform: translateY(0) translateX(-50%);
+            transform: translateY(0) translateX(-50%);
+  }
+  45% {
+    -webkit-transform: translateY(0) translateX(-50%);
+            transform: translateY(0) translateX(-50%);
+  }
+  50% {
+    -webkit-transform: translateY(-20px) translateX(-50%);
+            transform: translateY(-20px) translateX(-50%);
+  }
+  55% {
+    -webkit-transform: translateY(0) translateX(-50%);
+            transform: translateY(0) translateX(-50%);
+  }
+  100% {
+    -webkit-transform: translateY(0) translateX(-50%);
+            transform: translateY(0) translateX(-50%);
+  }
+}
+
+@keyframes hexagonsAreGons {
+  0% {
+    -webkit-transform: translateY(0) translateX(-50%);
+            transform: translateY(0) translateX(-50%);
+  }
+  45% {
+    -webkit-transform: translateY(0) translateX(-50%);
+            transform: translateY(0) translateX(-50%);
+  }
+  50% {
+    -webkit-transform: translateY(-20px) translateX(-50%);
+            transform: translateY(-20px) translateX(-50%);
+  }
+  55% {
+    -webkit-transform: translateY(0) translateX(-50%);
+            transform: translateY(0) translateX(-50%);
+  }
+  100% {
+    -webkit-transform: translateY(0) translateX(-50%);
+            transform: translateY(0) translateX(-50%);
+  }
 }
 /*# sourceMappingURL=App.css.map */

@@ -13,10 +13,11 @@ class App extends Component {
   render() {
 
     const backgroundHexagons = []
-    for (let i = 0; i< 30; i++) {
+    for (let i = 0; i < 30; i++) {
       backgroundHexagons.push(
         <img
-          src={require(`./assets/hexagon${Math.floor(Math.random()*7)}.svg`)}
+          key={i}
+          src={require(`./assets/hexagons/hexagon${Math.floor(Math.random()*7)}.svg`)}
           className="backgroundHexagon" 
           style={{
             position: "absolute",
@@ -27,6 +28,7 @@ class App extends Component {
             color: "white",
             transform: "translateX(-50%)",
             zIndex: -1,
+            animation: `hexagonsAreGons forwards infinite 10s ${i*0.15}s ease-out`
           }} 
         />
       )

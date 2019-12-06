@@ -11,7 +11,7 @@ class Header extends Component {
         return (
             <div id="Header">
                 <h1>Kharoh Family Science Projects</h1>
-                <img src={require('./../assets/favicon.png')} />
+                <a href="https://discord.gg/AUTXwEA"><img src={require('./../assets/favicon.png')} /></a>
             </div>
         )
     }

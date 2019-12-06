@@ -3,10 +3,12 @@
     margin-top: 10vh;
     padding: 3vh 7vw;
     width: 50vw;
+    height: 6.5vw;
 
     background-color: white;
     border-radius: 2vw;
     box-shadow: 0 4px 12px 0px rgba(0,0,0,.25);
+    animation: comeFromTheSky forwards 3s ease-out;
 
     display: flex;
     justify-content: space-between;
@@ -25,7 +27,35 @@
         border-radius: 2vw;
         box-shadow: 0 4px 12px 0px rgba(0,0,0,.25);
         cursor: pointer;
+        animation: rotate 20s 1.5s infinite forwards linear;
 
     }
 
+}
+
+@keyframes comeFromTheSky {
+
+    0% {
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+
+    35% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }

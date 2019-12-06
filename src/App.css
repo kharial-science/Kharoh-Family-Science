@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #2E2E2E;
-  overflow-y: initial;
+  overflow-y: hidden;
   overflow-x: hidden;
 }
 
@@ -22,7 +22,7 @@ body {
           align-items: center;
 }
 
-#App .backgroundHexagon path {
-  fill: white;
+#App .backgroundHexagon {
+  overflow: hidden;
 }
 /*# sourceMappingURL=App.css.map */

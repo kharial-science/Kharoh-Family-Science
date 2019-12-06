@@ -7,7 +7,7 @@ class Project extends Component {
 
     render() {
         return (
-            <a href={this.props.href}>
+            <a href={this.props.href} style={this.props.style} >
                 <div className="Project">
                     <h2>{this.props.title}</h2>
                 </div>

@@ -10,13 +10,39 @@ class Projects extends Component {
     }
 
     render() {
+
+        const projects = [
+            {
+                title: "Map Generator",
+                href: "https://kharohfamily-science.github.io/Map-Generator/"
+            },
+            {
+                title: "Binary Number Image",
+                href: "https://github.com/kharohfamily-science/Binary-Number-Image"
+            },
+            {
+                title: "Base Image Convertor",
+                href: "https://github.com/kharohfamily-science/Base-Image-Convertor"
+            },
+            {
+
+            },
+            {
+
+            },
+        ]
+
+        const projectsComponents = []
+        let key = 0
+        projects.forEach(project => {
+            projectsComponents.push(<Project key={key} {...project} style={{animation:`fadeInFromDownside forwards 3s ${key*0.15}s ease-out`}} />)
+            key++
+        })
+
+
         return (
             <div id="Projects">
-                <Project title="Map Generator" href="https://kharohfamily-science.github.io/Map-Generator/" />
-                <Project title="Binary Number Image" href="https://github.com/kharohfamily-science/Binary-Number-Image" />
-                <Project title="Base Image Convertor" href="https://github.com/kharohfamily-science/Base-Image-Convertor" />
-                <Project />
-                <Project />
+                {projectsComponents}
             </div>
         )
     }

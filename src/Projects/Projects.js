@@ -23,7 +23,7 @@ class Projects extends Component {
       },
       {
           title: "Times Tables",
-          href: "https://github.com/kharohfamily-science/Times-Tables",
+          href: "https://kharohfamily-science.github.io/Times-Tables/",
           image: 'Times-Tables.png'
       },
       {},

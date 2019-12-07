@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34b3374b96dcac43363cd236aa695fb1",
+    "revision": "1e6230c61fd741bd3cadec04379b25ab",
     "url": "/Kharoh-Family-Science/index.html"
   },
   {
-    "revision": "2cc6110fb767832bac30",
+    "revision": "5db63048bfde06a14c3c",
     "url": "/Kharoh-Family-Science/static/css/main.813e45e8.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Kharoh-Family-Science/static/js/2.635359a0.chunk.js"
   },
   {
-    "revision": "2cc6110fb767832bac30",
-    "url": "/Kharoh-Family-Science/static/js/main.b0143c1b.chunk.js"
+    "revision": "5db63048bfde06a14c3c",
+    "url": "/Kharoh-Family-Science/static/js/main.85612c5e.chunk.js"
   },
   {
     "revision": "17c1d158ff311ed94663",

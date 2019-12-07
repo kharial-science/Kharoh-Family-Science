@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Kharoh-Family-Science/precache-manifest.dc91d9d31ef2ae216e067f190155422b.js"
+  "/Kharoh-Family-Science/precache-manifest.43abaf6c60b2a3a55b3630ad8b3af784.js"
 );
 
 self.addEventListener('message', (event) => {

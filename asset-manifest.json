@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Kharoh-Family-Science/static/css/main.813e45e8.chunk.css",
-    "main.js": "/Kharoh-Family-Science/static/js/main.b0143c1b.chunk.js",
-    "main.js.map": "/Kharoh-Family-Science/static/js/main.b0143c1b.chunk.js.map",
+    "main.js": "/Kharoh-Family-Science/static/js/main.85612c5e.chunk.js",
+    "main.js.map": "/Kharoh-Family-Science/static/js/main.85612c5e.chunk.js.map",
     "runtime-main.js": "/Kharoh-Family-Science/static/js/runtime-main.0ae33310.js",
     "runtime-main.js.map": "/Kharoh-Family-Science/static/js/runtime-main.0ae33310.js.map",
     "static/js/2.635359a0.chunk.js": "/Kharoh-Family-Science/static/js/2.635359a0.chunk.js",
     "static/js/2.635359a0.chunk.js.map": "/Kharoh-Family-Science/static/js/2.635359a0.chunk.js.map",
     "index.html": "/Kharoh-Family-Science/index.html",
-    "precache-manifest.dc91d9d31ef2ae216e067f190155422b.js": "/Kharoh-Family-Science/precache-manifest.dc91d9d31ef2ae216e067f190155422b.js",
+    "precache-manifest.43abaf6c60b2a3a55b3630ad8b3af784.js": "/Kharoh-Family-Science/precache-manifest.43abaf6c60b2a3a55b3630ad8b3af784.js",
     "service-worker.js": "/Kharoh-Family-Science/service-worker.js",
     "static/css/main.813e45e8.chunk.css.map": "/Kharoh-Family-Science/static/css/main.813e45e8.chunk.css.map",
     "static/media/Binary-Number-Image.png": "/Kharoh-Family-Science/static/media/Binary-Number-Image.6c9d422e.png",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.0ae33310.js",
     "static/js/2.635359a0.chunk.js",
     "static/css/main.813e45e8.chunk.css",
-    "static/js/main.b0143c1b.chunk.js"
+    "static/js/main.85612c5e.chunk.js"
   ]
 }

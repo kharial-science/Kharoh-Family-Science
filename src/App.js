@@ -19,7 +19,7 @@ class App extends Component {
           src={require(`./assets/hexagons/hexagon${Math.floor(Math.random() * 7)}.svg`)}
           className='backgroundHexagon'
           style={{
-            position: 'absolute',
+            position: 'fixed',
             top: `${Math.random() * 100}%`,
             left: `${Math.random() * 100}%`,
             width: '3vh',

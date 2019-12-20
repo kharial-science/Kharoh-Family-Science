@@ -52,7 +52,7 @@
 
     }
     
-    @media only screen and (min-width: 768px){
+    @media only screen and (min-width: 820px){
         display: grid;
         grid-template-columns: repeat(3, 20vw);
         grid-column-gap: 2vw;
@@ -75,6 +75,31 @@
                 width: 140%;
             }
         }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 820px) {
+        display: grid;
+        grid-template-columns: repeat(2, 31vw);
+        grid-column-gap: 2vw;
+        grid-row-gap: 2.5vw;
+        grid-auto-rows: auto;
+
+        width: 64vw;
+        
+        .Project {
+            width: 31vw;
+            height: 16vw;
+            margin-bottom: 0px;
+
+            h2 {
+                font-size: 1.5vw;
+                color: black;
+            }
+
+            img {
+                width: 140%;
+            }
+        }
+
     }
 
 }

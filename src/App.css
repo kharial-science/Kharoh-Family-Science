@@ -2,9 +2,14 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #2E2E2E;
-  overflow-y: hidden;
+  background-color: #2e2e2e;
   overflow-x: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    overflow-y: hidden;
+  }
 }
 
 #App {

@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 
 import Header from './Header/Header'
 import Projects from './Projects/Projects'
+import Members from './Members/Members'
 
 import './App.css'
 
@@ -35,8 +37,20 @@ class App extends Component {
 
     return (
       <div id='App'>
-        <Header />
-        <Projects />
+      <Header />
+      <Router>
+        <Switch>
+          <Route
+            exact path='/Projects'
+            component = {() => <Projects />}
+          />
+
+          <Route
+          exact path='/Members'
+          component= {() => <Members />}/>
+
+        </Switch>
+      </Router>
         {backgroundHexagons}
       </div>
     )

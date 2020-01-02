@@ -1,0 +1,38 @@
+.Members {
+
+    margin-top: 10vh;
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    
+
+    .Member {
+        background-color: #FFF;
+        border-radius: 2vw;
+        margin-bottom: 0.5vw;
+        padding: 0.5vw;
+
+        h1 {
+            font-size: 1rem;
+        }
+
+        .infos {
+            margin-left: 1vw;
+            display: flex;
+            flex-direction: row;
+
+            .textInfos {
+                display: inline-block;
+                margin-left: 1%;
+                height: 5vw;
+            }
+
+
+            .memberLogo {
+                height: 5vw;
+                display: inline-block;
+            }
+        }
+    }
+
+}

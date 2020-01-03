@@ -6,6 +6,14 @@ import './Members.css'
 
 class Member extends Component {
 
+    
+    componentDidMount() {
+        window.addEventListener("orientationchange", function() {
+            console.log('orientation changed')
+            window.location.reload()
+        });
+    }
+
     render() {
 
         let seasonArray = []
@@ -22,7 +30,7 @@ class Member extends Component {
                     <img src={this.props.user.logo} class="memberLogo" />
                     <div class="textInfos">
                     Seasons: {seasonArray}<br />
-                    Github Profile: <a href={this.props.user.github} target="_blank">{this.props.user.github}</a>
+                    {window.innerWidth >= 768 && (window.screen.orientation.type == "landscape-primary" || window.screen.orientation.type == "landscape-secondary") ? <p>Github Profile: <a href={this.props.user.github} target="_blank">{this.props.user.github}</a></p> : <a href={this.props.user.github} target="_blank">Github Profile</a>}
                     </div>
                 </article>
     

@@ -1,7 +1,7 @@
 .Members {
 
     margin-top: 10vh;
-    width: 65vw;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     
@@ -24,13 +24,34 @@
             .textInfos {
                 display: inline-block;
                 margin-left: 1%;
-                height: 5vw;
+                height: 15vw;
+                width: auto;
             }
 
 
             .memberLogo {
-                height: 5vw;
+                height: 15vw;
                 display: inline-block;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+
+        width: 65vw;
+
+        .Member {
+
+            .infos {
+
+                .textInfos {
+                    height: 5vw;
+                    width: auto;
+                }
+
+                .memberLogo {
+                    height: 5vw;
+                }
             }
         }
     }

@@ -2,8 +2,10 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 
 import Header from './Header/Header'
+import Home from './Home/Home'
 import Projects from './Projects/Projects'
 import Members from './Members/Members'
+import Footer from './Footer/Footer'
 
 import './App.css'
 
@@ -41,16 +43,22 @@ class App extends Component {
       <Router>
         <Switch>
           <Route
+          exact path="/"
+          component= {() => <Home />}
+          />
+
+          <Route
             exact path='/Projects'
-            component = {() => <Projects />}
+            component={() => <Projects />}
           />
 
           <Route
           exact path='/Members'
-          component= {() => <Members />}/>
+          component={() => <Members />}/>
 
         </Switch>
       </Router>
+      <Footer />
         {backgroundHexagons}
       </div>
     )

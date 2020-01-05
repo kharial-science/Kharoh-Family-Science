@@ -1,0 +1,96 @@
+
+#Footer {
+    
+    height: 100px;
+    width: 100%;
+    background-color: #2E2E2E;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    .footer-title-container {
+        
+        display: none;
+
+    }
+
+    .social-networks {
+        
+        margin-right: 5vw;
+
+        display: flex;
+        flex-direction: row;
+
+        .social-network {
+
+            margin: 0 1vw;
+            width: 60px;
+            height: 60px;
+    
+            border-radius: .6vh;
+    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            img {
+                background-color: white;
+                border-radius: .5vh;
+                height: 50px;
+            }
+    
+        }
+
+    }
+
+    #ourLogo {
+
+        margin-left: 10px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 0 4px 12px 0px rgba(0,0,0,.25);
+        cursor: pointer;
+        animation: rotate 20s 0s infinite forwards linear;
+
+    }
+
+    @media only screen and (min-width: 768px) and (orientation: landscape) {
+
+        justify-content: space-between;
+
+        .footer-title-container {
+
+            margin-left: 5vw;
+            padding: 0 15px;
+            height: 50px;
+
+            background-color: white;
+            border-radius: .6vh;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        #ourLogo {
+
+            height: 60px;
+            margin: 0;
+
+        }
+
+    }
+    
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
